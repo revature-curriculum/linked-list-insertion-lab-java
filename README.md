@@ -41,7 +41,7 @@ java.lang.NullPointerException: Cannot invoke "Object.getClass()" because "o" is
 	at CustomLinkedListTest.whenValidItemAddedToNewListDataIsPresent(CustomLinkedListTest.java:48)
   ```
 
-If you have any issues, try running `mvn dependencies:resolve` and then running the tests again. 
+If you have any issues, try running `mvn dependency:resolve` and then running the tests again. 
 
 If that doesn't work, let avi@revature.com know and do your best without the tests.
 

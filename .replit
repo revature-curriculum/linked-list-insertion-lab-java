@@ -1,6 +1,6 @@
 compile = "mvn test"
 run =  "mvn test"
-entrypoint = "Main.java"
+entrypoint = "README.md"
 hidden = ["**/*.class"]
 
 [packager]
@@ -56,4 +56,4 @@ type = "request"
 
 [debugger.interactive.launchMessage.arguments]
 classPaths = ["."]
-mainClass = "Main"
+mainClass = "CustomLinkedListJava"
